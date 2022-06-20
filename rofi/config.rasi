@@ -1,0 +1,9 @@
+/** Basic config file **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus";
+  font: 	      "Iosevka Nerd Font 14";
+}
+
+@theme "$HOME/.config/rofi/slate_center.rasi"
