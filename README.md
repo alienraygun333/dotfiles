@@ -35,10 +35,12 @@ Depends:
      Polybar
   
      Picom
+     
+     Awesome-WM-Widgets (https://github.com/streetturtle/awesome-wm-widgets)
   
   
   
-  Optional (stuff shown in screenshots, misc. utilties):
+  Other:
   
      Neofetch
   
