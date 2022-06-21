@@ -1,6 +1,7 @@
 # dotfiles
 BSPWM, AwesomeWM, and misc. dotfiles :)
 
+Please let me know if you find any issues! This is my first time doing this, so something might be messed up.
 
 Installation:
 
@@ -10,10 +11,10 @@ Installation:
  
  ``cd dotfiles``
 
-know what you're doing when you run the next one! this **will** wipe out your entire .config directory!
+ ``mv * ~/.config`` 
 
-``mv ./* ~/.config``
-  
+Beware, if you have pre-existing config files for any of the dependencies, you'll have to replace them to get this to work 
+ 
 Depends:
 
      AwesomeWM
