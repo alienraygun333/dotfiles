@@ -373,7 +373,7 @@ globalkeys = gears.table.join(
               {description = "restore minimized", group = "client"}),
 
     -- Prompt
-    awful.key({ modkey },            "d",     function () awful.spawn.with_shell("rofi -show drun -config /usr/share/rofi/themes/awesome.rasi") end,
+    awful.key({ modkey },            "d",     function () awful.spawn.with_shell("rofi -show drun -config $HOME/.config/rofi/awesome.rasi") end,
               {description = "run prompt", group = "launcher"}),
 
     awful.key({ modkey }, "x",
