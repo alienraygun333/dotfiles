@@ -3,6 +3,8 @@ BSPWM, AwesomeWM, and misc. dotfiles :)
 
 Please let me know if you find any issues! This is my first time doing this, so something might be messed up.
 
+!!AwesomeWM rofi theme is a work in progress
+
 Installation:
 
  To install, 
