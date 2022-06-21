@@ -1,0 +1,153 @@
+/**
+ * A floating box version of the paper theme.
+ *
+ * User: Qball
+ * Copyright: Dave Davenport
+ */
+
+* {
+    blue:  #0000FF;
+    white: #00000000;
+    black: #000000;
+    grey:  #24283b;
+    background:	#24283b;
+    spacing: 2;
+    background-color: #00000000;
+    border-color: #444444FF;
+    foreground: #a9b1d6;
+    anchor: north;
+    location: center;
+}
+window {
+    transparency: "screenshot";
+    background-color: #00000000;
+    border: 0;
+    padding: 3em -1em -1em -1em;
+    height: 660px;
+    x-offset: 0;
+    y-offset: -20%;
+    background-image: url("/home/elizabethposusta/Pictures/wallpapers-old/wisteria.png");
+}
+mainbox {
+    padding: 0px;
+    border: 0;
+    spacing: 1%;
+    background-color: #00000000;
+}
+message {
+    border: 0px;
+    padding: 1em;
+    background-image: url("/home/elizabethposusta/Pictures/wallpapers-old/wisteria.png", BOTH);
+    text-color: @back;
+}
+textbox normal {
+    text-color: #002B36;
+    padding: 0;
+    border: 0;
+    background-image: url("/home/elizabethposusta/Pictures/wallpapers-old/wisteria.png", BOTH);
+}
+listview {
+    fixed-height: 0;
+    border: 20px;
+    padding: 1em;
+    reverse: false;
+    border-color: #00000000;
+    columns: 1;
+    background-color: @background;
+}
+element {
+    background-color: @background;
+    border: 8;
+    border-color: #00000000;
+    padding: 2px;
+    highlight: bold;
+    text-color: @foreground;
+}
+element-text {
+    border-color:     #00000000;
+    border: 0;
+    background-color: @background;
+    text-color:       @foreground;
+}
+element normal.normal {
+    border: 0;
+    text-color: #002B36FF;
+    background-color: @background;
+}
+element normal.urgent {
+    border: 0;
+    text-color: #D75F00FF;
+    background-color: #F5F5F5FF;
+}
+element normal.active {
+    text-color: #005F87FF;
+    background-color: #F5F5F5FF;
+}
+element selected.normal {
+    text-color: #F5F5F5FF;
+    background-color: @black;
+}
+element selected.urgent {
+    text-color: #F5F5F5FF;
+    background-color: #D75F00FF;
+}
+element selected.active {
+    text-color: #F5F5F5FF;
+    background-color: #005F87FF;
+}
+element alternate.normal {
+    text-color: #002B36FF;
+    background-color: #D0D0D0FF;
+}
+element alternate.urgent {
+    text-color: #D75F00FF;
+    background-color: #D0D0D0FF;
+}
+element alternate.active {
+    text-color: #005F87FF;
+    background-color: #D0D0D0FF;
+}
+
+scrollbar {
+    border: 0;
+    padding: 0;
+}
+inputbar {
+    spacing: 0px;
+    border: 80px 180px 0px 180px;
+    border-color: #00000000;
+    border-radius: 10;
+    padding: -1em 1em 1em 1em;
+    background-color: @grey;
+    index: 0;
+    
+}
+inputbar normal {
+    foreground-color: @foreground;
+    background-color: #F5F5F500;
+}
+mode-switcher {
+    border: 2px;
+    foreground-color: @foreground;
+    padding: 0.5em 1em;
+    background-color: @grey;
+    index: 10;
+}
+button selected {
+    text-color: @foreground;
+}
+inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+textbox-prompt-colon {
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em ;
+    text-color: @foreground;
+}
+error-message {
+    border: 2px;
+    padding: 1em;
+    background-color: #FF8888;
+    text-color: @back;
+}
