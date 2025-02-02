@@ -9,7 +9,7 @@ Installation:
 
  To install, 
  
- ``git clone https://github.com/fIzzieBots/dotfiles``
+ ``git clone https://github.com/alienraygun333/dotfiles``
  
  ``cd dotfiles``
 
@@ -17,7 +17,7 @@ Installation:
 
 Beware, if you have pre-existing config files for any of the dependencies, you'll have to replace them to get this to work 
  
-Depends:
+Depends on:
 
      AwesomeWM
   
@@ -43,13 +43,4 @@ Depends:
   
   
   
-  Other:
-  
-     Neofetch
-  
-     Cava
-  
-     Cmatrix
-  
-     Meson and Cmake
   
